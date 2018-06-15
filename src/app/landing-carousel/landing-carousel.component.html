@@ -1,0 +1,5 @@
+<mdb-carousel [isControls]="true" [animation]="'fade'" [interval]=interval>
+  <mdb-slide *ngFor="let image of images">
+    <img class="d-block w-100" src={{image}} alt="First slide">
+  </mdb-slide>
+</mdb-carousel>
